@@ -82,7 +82,6 @@ h2 {
 }
 
 .presentacion h1 {
-	/* cuando achico la pantalla se superpone y no entiendo por qué */
 	margin: 2rem;
 	text-align: right;
 }
