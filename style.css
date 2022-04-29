@@ -310,7 +310,7 @@ p {
 	align-items: center;
 }
 
-#icon {
+.icon {
 	font-size: 10rem;
 	margin: 1.5rem;
 	display: block;
