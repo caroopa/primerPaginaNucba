@@ -348,12 +348,26 @@ p {
 	align-items: center;
   }
 
+.card2 {
+	width: 300px;
+	box-shadow: 5px 5px 5px 5px var(--color-cuarto);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem 1rem;
+	border-radius: 10px;
+	position: relative;
+}
+
 .card2__precios {
 	background-color: var(--color-primario);
 	width: 130px;
 	height: 130px;
 	border-radius: 100%;
 	padding: 2rem 1rem 1rem 1rem;
+	position: absolute;
+	z-index: 3;
+	top: -50px;
 }
 
 .card2__precios p {
@@ -363,16 +377,6 @@ p {
 .card2__precio {
 	font-size: 2rem;
 	font-weight: 300;
-}
-
-.card2 {
-	width: 300px;
-	box-shadow: 5px 5px 5px 5px var(--color-cuarto);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 3rem 1rem;
-	border-radius: 10px;
 }
 
 .card2:hover {
