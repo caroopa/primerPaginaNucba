@@ -339,7 +339,27 @@ p {
 	padding: 5rem;
 }
 
-.servicios__container {
+.servicios__container1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.servicios__container1 h2 {
+	border-bottom: 2px solid var(--color-primario);
+	width: 20rem;
+	text-align: center;
+}
+
+.servicios__container1 p {
+	text-align: center;
+	margin: 2rem;
+	width: 80%;
+	font-weight: 100;
+	font-style: oblique;
+}
+
+.servicios__container2 {
 	margin-top: 5rem;
 	display: flex;
 	gap: 8rem;
