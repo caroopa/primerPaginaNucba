@@ -511,11 +511,15 @@ blockquote::before {
 
 @media screen and (max-width: 1000px) {
 	.clientes__container2 {
-		max-width: 80%;
+		max-width: 100%;
 	}
 
 	.clientes__container3 {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.clientes__img__container {
+		flex-direction: column;
 	}
 }
