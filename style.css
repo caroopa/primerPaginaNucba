@@ -553,3 +553,16 @@ footer {
 		gap: 3rem;
 	}
 }
+
+.logo_footer {
+	animation: alternate 2s efecto infinite;
+}
+
+@keyframes efecto {
+	0% {
+		transform: rotate(35deg);
+	}
+	100% {
+		transform: rotate(-35deg);
+	}
+}
