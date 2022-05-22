@@ -33,7 +33,7 @@ a:visited {
 
 header {
 	background: url(fondo.jpg) no-repeat center center;
-	background-image:linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.3)),url(fondo.jpg);
+	background-image: linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.3)),url(fondo.jpg);
 	background-size: cover;	
 	height: 100vh;
 	color: var(--color-secundario);
